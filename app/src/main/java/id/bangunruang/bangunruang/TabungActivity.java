@@ -26,7 +26,7 @@ public class TabungActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String jarijari = JariJari.getText().toString().trim();
-                double luas = 3.14 *(jarijari * jarijari) ;
+                double luas = 3.14 *jarijari * jarijari ;
 
                 hasiltabung.setText("Luas tabung : " + luas);
             }
