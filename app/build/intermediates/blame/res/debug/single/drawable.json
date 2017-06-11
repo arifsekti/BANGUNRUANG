@@ -48,10 +48,6 @@
         "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kubus.png",
-        "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\src\\main\\res\\drawable\\kubus.png"
-    },
-    {
         "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
@@ -122,10 +118,6 @@
     {
         "merged": "D:\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "D:\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabung.png",
-        "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\src\\main\\res\\drawable\\tabung.png"
     },
     {
         "merged": "D:\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -260,10 +252,6 @@
         "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bacground.jpg",
-        "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\src\\main\\res\\drawable\\bacground.jpg"
-    },
-    {
         "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -322,10 +310,6 @@
     {
         "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\balok.png",
-        "source": "D:\\MATERI KULIAH\\MOBILE\\arif\\android\\BANGUNRUANG\\app\\src\\main\\res\\drawable\\balok.png"
     },
     {
         "merged": "D:\\arif\\android\\BANGUNRUANG\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
