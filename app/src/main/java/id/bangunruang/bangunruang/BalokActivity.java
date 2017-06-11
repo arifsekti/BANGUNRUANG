@@ -20,7 +20,7 @@ public class BalokActivity extends AppCompatActivity {
 
         PanjangeditText = (EditText) findViewById(R.id.PanjangeditText);
         LebareditText = (EditText) findViewById(R.id.LebareditText);
-        TinggieditText = (EditText) findViewById(R.id.TinggieditText);
+        TinggieditText = (EditText) findViewById(R.id.GLukiseditText);
         buttonHitungBalok = (Button) findViewById(R.id.buttonHitungBalok);
         LuasBaloktextView = (TextView) findViewById(R.id.LuasBaloktextView);
 
@@ -34,9 +34,12 @@ public class BalokActivity extends AppCompatActivity {
                 double p = Double.parseDouble(panjang);
                 double l = Double.parseDouble(lebar);
                 double t = Double.parseDouble(tinggi);
-                double luas = p * l * t;
+                double a = p*l;
+                double b = p*t;
+                double c = l*t;
+                double luas = 2*(a + b + c);
 
-                LuasBaloktextView.setText("Luas : " + luas);
+                LuasBaloktextView.setText("Luas Selimut Balok = " + luas);
             }
         });
     }

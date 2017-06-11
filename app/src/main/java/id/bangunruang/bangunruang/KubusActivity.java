@@ -28,9 +28,9 @@ public class KubusActivity extends AppCompatActivity {
                 String sisi = editTextsisi.getText().toString().trim();
 
                 double s = Double.parseDouble(sisi);
-                double luas = s * 6;
+                double luas = 6*(s*s);
 
-                textViewhasilKubus.setText("Luas : " + luas);
+                textViewhasilKubus.setText("Luas Selimut Kubus = " + luas);
             }
         });
     }

@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class KerucutActivity extends AppCompatActivity {
 
-    private EditText JarieditText,TinggieditText;
+    private EditText JarieditText,GLukiseditText;
     private Button buttonHitungKerucut;
     private TextView HasilKerucut;
 
@@ -19,7 +19,7 @@ public class KerucutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_kerucut);
 
         JarieditText = (EditText) findViewById(R.id.JarieditText);
-        TinggieditText = (EditText) findViewById(R.id.TinggieditText);
+        GLukiseditText = (EditText) findViewById(R.id.GLukiseditText);
         buttonHitungKerucut = (Button) findViewById(R.id.buttonHitungKerucut);
         HasilKerucut = (TextView) findViewById(R.id.HasilKerucut);
 
@@ -27,13 +27,14 @@ public class KerucutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String jarijari = JarieditText.getText().toString().trim();
-                String tinggi = TinggieditText.getText().toString().trim();
+                String Glukis = GLukiseditText.getText().toString().trim();
 
-                double LuasAlas =3.14*( Double.parseDouble(jarijari)*Double.parseDouble(jarijari));
-                double t = Double.parseDouble(tinggi);
-                double luas = 3.14 *LuasAlas * t ;
 
-                HasilKerucut.setText("Luas selimut : " + luas);
+                double r = Double.parseDouble(jarijari);
+                double GL = Double.parseDouble(Glukis);
+                double luas = 3.14 *r * GL ;
+
+                HasilKerucut.setText("Luas Selimut Kerucut = " + luas);
             }
         });
     }

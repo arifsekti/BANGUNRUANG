@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class TabungActivity extends AppCompatActivity {
 
     private EditText JariJari;
+    private  EditText TinggieditText;
     private Button hitungtabung;
     private TextView hasiltabung;
 
@@ -26,9 +27,12 @@ public class TabungActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String jarijari = JariJari.getText().toString().trim();
-                double luas = 3.14 *(jarijari * jarijari) ;
+                String Tinggi = TinggieditText.getText().toString().trim();
+                double t = Double.parseDouble(Tinggi);
+                double r = Double.parseDouble(jarijari);
+                double luas = 2* 3.14 * r * t ;
 
-                hasiltabung.setText("Luas tabung : " + luas);
+                hasiltabung.setText("Luas Selimut Tabung ="+ luas);
             }
         });
     }
